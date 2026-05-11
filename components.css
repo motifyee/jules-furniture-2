@@ -577,3 +577,30 @@ details.accordion > .accordion__content {
 /* Added Utility & Interactive States */
 .hidden { display: none !important; }
 .quiz-option.is-active { border-color: var(--color-accent) !important; background-color: var(--color-accent-subtle) !important; }
+
+/* Sticky Glassy Header */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(var(--color-surface-rgb, 253, 250, 245), 0.8); /* Assuming a fallback, though custom props ideally should be rgb split to work with rgba, we can use a basic transparent surface and backdrop filter */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  transition: background-color var(--dur-normal) var(--ease-out), backdrop-filter var(--dur-normal) var(--ease-out);
+}
+/* Allow header to handle transparent top before scrolling on index */
+.header--transparent {
+  background-color: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-bottom: none;
+}
+.header.is-scrolled {
+  background-color: rgba(253, 250, 245, 0.85); /* fallback color, typically surface color */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+}

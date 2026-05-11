@@ -17,12 +17,11 @@
 </head>
 <body>
 <!-- Navigation -->
-<header class="header">
+<header class="header padding-block-4">
 <div class="container flex-row justify-between align-center">
-<div class="header__logo h3">DAMIETTA</div>
-<nav class="header__nav">
-<!-- Desktop Nav -->
-<ul class="flex-row gap-6 d-mobile-none">
+<div class="header__logo h3"><a href="index.html">DAMIETTA</a></div>
+<nav class="header__nav d-none d-md-block">
+<ul class="flex-row gap-6">
 <li><a href="gallery.html">Shop</a></li>
 <li><a href="collections.html">Collections</a></li>
 <li><a href="custom-order.html">Custom Orders</a></li>
@@ -31,10 +30,10 @@
 </ul>
 </nav>
 <div class="header__actions flex-row gap-4">
-<button aria-label="Search" class="btn btn--ghost">Search</button>
-<button aria-label="Wishlist" class="btn btn--ghost">Wishlist (0)</button>
+<button aria-label="Search" class="btn btn--ghost d-none d-md-inline-block">Search</button>
+<button aria-label="Wishlist" class="btn btn--ghost d-none d-md-inline-block">Wishlist (0)</button>
 <button aria-label="Cart" class="btn btn--ghost">Cart (0)</button>
-<button class="btn btn--ghost" onclick="document.documentElement.dir='rtl';">عربي</button>
+<button class="btn btn--ghost d-none d-md-inline-block" onclick="document.documentElement.dir='rtl';">عربي</button>
 </div>
 </div>
 </header>

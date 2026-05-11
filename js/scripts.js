@@ -238,3 +238,30 @@ function initQuiz() {
     });
   });
 }
+
+/**
+ * Sticky Glassy Header
+ * Toggles a class when the page scrolls down to handle transparency.
+ */
+function initStickyHeader() {
+  const header = document.querySelector('.header');
+  if (!header) return;
+
+  const handleScroll = () => {
+    if (window.scrollY > 10) {
+      header.classList.add('is-scrolled');
+    } else {
+      header.classList.remove('is-scrolled');
+    }
+  };
+
+  // Run on init
+  handleScroll();
+  // Listen on scroll
+  window.addEventListener('scroll', handleScroll, { passive: true });
+}
+
+// Ensure initStickyHeader runs on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  initStickyHeader();
+});

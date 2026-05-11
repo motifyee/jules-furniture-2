@@ -13,14 +13,26 @@
 </head>
 <body>
 
-  <header class="header bg-surface padding-block-4">
-    <div class="container flex-row justify-between align-center">
-      <div class="header__logo h3"><a href="index.html">DAMIETTA</a></div>
-      <div class="header__actions">
-        <a href="gallery.html" class="btn btn--ghost">Shop</a>
-      </div>
-    </div>
-  </header>
+  <header class="header padding-block-4">
+<div class="container flex-row justify-between align-center">
+<div class="header__logo h3"><a href="index.html">DAMIETTA</a></div>
+<nav class="header__nav d-none d-md-block">
+<ul class="flex-row gap-6">
+<li><a href="gallery.html">Shop</a></li>
+<li><a href="collections.html">Collections</a></li>
+<li><a href="custom-order.html">Custom Orders</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="showroom.html">Showroom</a></li>
+</ul>
+</nav>
+<div class="header__actions flex-row gap-4">
+<button aria-label="Search" class="btn btn--ghost d-none d-md-inline-block">Search</button>
+<button aria-label="Wishlist" class="btn btn--ghost d-none d-md-inline-block">Wishlist (0)</button>
+<button aria-label="Cart" class="btn btn--ghost">Cart (0)</button>
+<button class="btn btn--ghost d-none d-md-inline-block" onclick="document.documentElement.dir='rtl';">عربي</button>
+</div>
+</div>
+</header>
 
   <main class="container margin-top-12 margin-bottom-16">
     <div class="text-center margin-bottom-12">
