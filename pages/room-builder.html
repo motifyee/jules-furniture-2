@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Room Builder | Damietta Furniture</title>
+<link href="../tokens.css" rel="stylesheet"/>
+<link href="../base.css" rel="stylesheet"/>
+<link href="../layout.css" rel="stylesheet"/>
+<link href="../components.css" rel="stylesheet"/>
+<link href="../rtl.css" rel="stylesheet"/>
+<link href="../brand-personalities/artisan-heritage.css" rel="stylesheet"/>
+</head>
+<body class="section text-center bg-surface-raised">
+<header class="header padding-block-4">
+<div class="container flex-row justify-between align-center">
+<div class="header__logo h3"><a href="index.html">DAMIETTA</a></div>
+<div class="text-sm text-secondary">Step 1 of 4</div>
+</div>
+</header>
+<main class="container container--narrow margin-top-12 margin-bottom-16 text-center">
+<div class="container margin-block-12">
+<div class="text-align-center margin-bottom-8">
+<h1 class="text-3xl font-display margin-bottom-2">Room Finder</h1>
+<p class="text-muted">Tell us about your space. We'll find the right pieces.</p>
+</div>
+<form class="max-w-3xl mx-auto bg-surface padding-8 radius-lg shadow-md border-all border-strong" id="quiz-form">
+<!-- Step 1 -->
+<div aria-labelledby="q1-title" class="quiz-step" id="step-1" role="group">
+<div class="flex justify-between items-center margin-bottom-6">
+<h2 class="text-xl font-display" id="q1-title">1. What room are you furnishing?</h2>
+<span aria-current="step" class="text-sm text-muted">1 of 4</span>
+</div>
+<div class="grid grid-cols-2 tablet-grid-cols-3 gap-4 margin-bottom-8">
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 text-center hover-lift flex flex-col items-center">
+<input class="sr-only" name="room" type="radio" value="living"/>
+<div class="w-12 h-12 border-all border-strong radius-md margin-bottom-2 bg-surface-raised flex items-center justify-center">L</div>
+<span class="font-label">Living Room</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 text-center hover-lift flex flex-col items-center">
+<input class="sr-only" name="room" type="radio" value="bedroom"/>
+<div class="w-12 h-12 border-all border-strong radius-md margin-bottom-2 bg-surface-raised flex items-center justify-center">B</div>
+<span class="font-label">Bedroom</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 text-center hover-lift flex flex-col items-center">
+<input class="sr-only" name="room" type="radio" value="dining"/>
+<div class="w-12 h-12 border-all border-strong radius-md margin-bottom-2 bg-surface-raised flex items-center justify-center">D</div>
+<span class="font-label">Dining Room</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 text-center hover-lift flex flex-col items-center">
+<input class="sr-only" name="room" type="radio" value="office"/>
+<div class="w-12 h-12 border-all border-strong radius-md margin-bottom-2 bg-surface-raised flex items-center justify-center">O</div>
+<span class="font-label">Home Office</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 text-center hover-lift flex flex-col items-center">
+<input class="sr-only" name="room" type="radio" value="outdoor"/>
+<div class="w-12 h-12 border-all border-strong radius-md margin-bottom-2 bg-surface-raised flex items-center justify-center">Out</div>
+<span class="font-label">Outdoor</span>
+</label>
+</div>
+<div class="flex justify-end border-top border-strong padding-top-4">
+<button class="btn btn--primary" data-next-step="2" type="button">Next Step →</button>
+</div>
+</div>
+<!-- Step 2 -->
+<div aria-labelledby="q2-title" class="quiz-step hidden" id="step-2" role="group">
+<div class="flex justify-between items-center margin-bottom-6">
+<h2 class="text-xl font-display" id="q2-title">2. How do you want the space to feel?</h2>
+<span aria-current="step" class="text-sm text-muted">2 of 4</span>
+</div>
+<div class="grid grid-cols-2 gap-4 margin-bottom-8">
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 flex items-center gap-4 hover-lift">
+<input class="sr-only" name="style" type="radio" value="warm"/>
+<div class="w-8 h-8 radius-pill" style="background-color: var(--color-wood-warm);"></div>
+<span class="font-label">Warm &amp; Cozy</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 flex items-center gap-4 hover-lift">
+<input class="sr-only" name="style" type="radio" value="minimal"/>
+<div class="w-8 h-8 radius-pill" style="background-color: var(--color-surface-raised); border: 1px solid var(--color-border);"></div>
+<span class="font-label">Clean &amp; Minimal</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 flex items-center gap-4 hover-lift">
+<input class="sr-only" name="style" type="radio" value="bold"/>
+<div class="w-8 h-8 radius-pill" style="background-color: var(--color-wood-dark);"></div>
+<span class="font-label">Bold &amp; Dramatic</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 flex items-center gap-4 hover-lift">
+<input class="sr-only" name="style" type="radio" value="organic"/>
+<div class="w-8 h-8 radius-pill" style="background-color: var(--material-pine);"></div>
+<span class="font-label">Natural &amp; Organic</span>
+</label>
+</div>
+<div class="flex justify-between border-top border-strong padding-top-4">
+<button class="btn btn--ghost" data-prev-step="1" type="button">← Back</button>
+<button class="btn btn--primary" data-next-step="3" type="button">Next Step →</button>
+</div>
+</div>
+<!-- Step 3 -->
+<div aria-labelledby="q3-title" class="quiz-step hidden" id="step-3" role="group">
+<div class="flex justify-between items-center margin-bottom-6">
+<h2 class="text-xl font-display" id="q3-title">3. What is your budget range?</h2>
+<span aria-current="step" class="text-sm text-muted">3 of 4</span>
+</div>
+<div class="flex flex-col gap-2 margin-bottom-8">
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="budget" type="radio" value="low"/>
+<span class="font-label">Under 5,000 EGP</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="budget" type="radio" value="mid"/>
+<span class="font-label">5,000 - 15,000 EGP</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="budget" type="radio" value="high"/>
+<span class="font-label">15,000 - 30,000 EGP</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="budget" type="radio" value="custom"/>
+<span class="font-label">Above 30,000 EGP / Custom</span>
+</label>
+</div>
+<div class="flex justify-between border-top border-strong padding-top-4">
+<button class="btn btn--ghost" data-prev-step="2" type="button">← Back</button>
+<button class="btn btn--primary" data-next-step="4" type="button">Next Step →</button>
+</div>
+</div>
+<!-- Step 4 -->
+<div aria-labelledby="q4-title" class="quiz-step hidden" id="step-4" role="group">
+<div class="flex justify-between items-center margin-bottom-6">
+<h2 class="text-xl font-display" id="q4-title">4. What matters most to you? (Select up to 2)</h2>
+<span aria-current="step" class="text-sm text-muted">4 of 4</span>
+</div>
+<div class="grid grid-cols-2 gap-4 margin-bottom-8">
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="priority" type="checkbox" value="durability"/>
+<span class="font-label">Durability</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="priority" type="checkbox" value="solid-wood"/>
+<span class="font-label">Solid Wood</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="priority" type="checkbox" value="custom-size"/>
+<span class="font-label">Custom Size</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="priority" type="checkbox" value="fast-delivery"/>
+<span class="font-label">Fast Delivery</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="priority" type="checkbox" value="investment"/>
+<span class="font-label">Investment Piece</span>
+</label>
+<label class="quiz-option cursor-pointer border-all border-strong radius-md padding-4 hover-lift">
+<input class="sr-only" name="priority" type="checkbox" value="egyptian"/>
+<span class="font-label">Egyptian-Made</span>
+</label>
+</div>
+<div class="flex justify-between border-top border-strong padding-top-4">
+<button class="btn btn--ghost" data-prev-step="3" type="button">← Back</button>
+<button class="btn btn--primary" data-show-results type="button">See Results</button>
+</div>
+</div>
+<!-- Results State -->
+<div aria-labelledby="results-title" class="quiz-step hidden" id="quiz-results" role="region">
+<div class="text-align-center margin-bottom-8">
+<h2 class="text-2xl font-display margin-bottom-2" id="results-title">Your Recommendations</h2>
+<p class="text-muted">Based on your answers, here's what we recommend for your space.</p>
+</div>
+<div class="grid grid-cols-1 tablet-grid-cols-3 gap-6 margin-bottom-8">
+<!-- Fake Product 1 -->
+<div class="bg-background padding-4 radius-md border-all border-strong">
+<div class="aspect-square bg-border margin-bottom-4 radius-sm flex items-center justify-center"><span class="text-muted">Image</span></div>
+<h3 class="font-display">Malak Sideboard</h3>
+<p class="text-sm text-muted margin-bottom-4">Solid Walnut</p>
+<a class="btn btn--ghost w-full" href="product.html">View Piece</a>
+</div>
+<!-- Fake Product 2 -->
+<div class="bg-background padding-4 radius-md border-all border-strong">
+<div class="aspect-square bg-border margin-bottom-4 radius-sm flex items-center justify-center"><span class="text-muted">Image</span></div>
+<h3 class="font-display">Nile Dining Chair</h3>
+<p class="text-sm text-muted margin-bottom-4">Oak &amp; Linen</p>
+<a class="btn btn--ghost w-full" href="product.html">View Piece</a>
+</div>
+<!-- Fake Product 3 -->
+<div class="bg-background padding-4 radius-md border-all border-strong">
+<div class="aspect-square bg-border margin-bottom-4 radius-sm flex items-center justify-center"><span class="text-muted">Image</span></div>
+<h3 class="font-display">Cairo Lounge</h3>
+<p class="text-sm text-muted margin-bottom-4">Velvet</p>
+<a class="btn btn--ghost w-full" href="product.html">View Piece</a>
+</div>
+</div>
+<div class="flex flex-col tablet-flex-row gap-4 justify-center">
+<a class="btn btn--ghost" href="gallery.html">See all Room furniture →</a>
+<a class="btn btn--primary" href="contact.html">Book a Design Consultation</a>
+</div>
+</div>
+</form>
+</div>
+
+</main>
+<script defer="" src="../js/scripts.js"></script>
+</body>
+</html>

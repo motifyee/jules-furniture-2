@@ -1,0 +1,117 @@
+/* tokens.css */
+:root {
+  /* TYPOGRAPHY */
+  --font-display: "Playfair Display", serif; /* Default to artisan-heritage, overridable */
+  --font-body: "Source Serif 4", serif;
+  --font-label: "Lato", sans-serif;
+  --font-arabic: "Amiri", serif;
+
+  /* SCALE - fluid using clamp() */
+  --text-xs: clamp(0.75rem, 1.5vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 1.75vw, 1rem);
+  --text-base: clamp(1rem, 2vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 2.25vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 2.5vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 3vw, 2rem);
+  --text-3xl: clamp(2rem, 4vw, 3rem);
+  --text-4xl: clamp(2.5rem, 6vw, 4.5rem);
+  --text-display: clamp(3rem, 8vw, 7rem);
+
+  /* LINE HEIGHT */
+  --lh-tight: 1.1;
+  --lh-snug: 1.25;
+  --lh-normal: 1.45;
+  --lh-relaxed: 1.6;
+  --lh-prose: 1.75;
+
+  /* COLORS - Base tokens, typically overridden by brand personalities */
+  --color-background: #F5EDE0;
+  --color-surface: #FDFAF5;
+  --color-surface-raised: #FFFFFF;
+  --color-text-primary: #2A1F14;
+  --color-text-secondary: #6B5340;
+  --color-text-muted: #888888;
+  --color-accent: #8B5E3C;
+  --color-accent-hover: #6E4A2E;
+  --color-accent-subtle: #E0D0C0;
+  --color-border: #E0D0C0;
+  --color-border-strong: #2A1F14;
+  --color-wood-warm: #C4884A;
+  --color-wood-dark: #5C3A1E;
+  --color-wood-light: #DEB887;
+
+  /* WOOD MATERIAL TOKENS */
+  --material-oak: #C8A97E;
+  --material-walnut: #5C3A1E;
+  --material-pine: #DEB887;
+  --material-ebony: #1F1209;
+  --material-ash: #D4C5B0;
+  --material-mahogany: #8B3A21;
+
+  /* UPHOLSTERY TOKENS */
+  --fabric-linen: #E8DDD0;
+  --fabric-velvet: #7B4F8A;
+  --fabric-leather: #6B4226;
+  --fabric-boucle: #D4CFC8;
+  --fabric-cotton: #F0EBE3;
+
+  /* SPACING - 8pt scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* RADIUS */
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+  --radius-organic: 60% 40% 55% 45% / 45% 55% 40% 60%;
+
+  /* SHADOWS */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  --shadow-xl: 0 16px 56px rgba(0,0,0,0.16);
+  --shadow-product: 0 8px 40px rgba(0,0,0,0.14), 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-hover: 0 24px 64px rgba(0,0,0,0.18), 0 4px 12px rgba(0,0,0,0.08);
+  --shadow-wood-glow: 0 0 48px rgba(200,169,126,0.25);
+
+  /* MOTION */
+  --dur-instant: 0ms;
+  --dur-fast: 100ms;
+  --dur-normal: 200ms;
+  --dur-slow: 350ms;
+  --dur-enter: 500ms;
+  --dur-reveal: 700ms;
+
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-grain: cubic-bezier(0.34, 1.4, 0.64, 1); /* Slight overshoot */
+  --ease-pour: cubic-bezier(0.22, 1, 0.36, 1); /* Smooth deceleration */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-instant: 0ms;
+    --dur-fast: 0ms;
+    --dur-normal: 0ms;
+    --dur-slow: 0ms;
+    --dur-enter: 0ms;
+    --dur-reveal: 0ms;
+  }
+}

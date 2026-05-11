@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Damietta Furniture</title>
+  <link rel="stylesheet" href="../tokens.css">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="../layout.css">
+  <link rel="stylesheet" href="../components.css">
+  <link rel="stylesheet" href="../rtl.css">
+  <link rel="stylesheet" href="../brand-personalities/artisan-heritage.css">
+</head>
+<body>
+
+  <header class="header bg-surface padding-block-4">
+    <div class="container flex-row justify-between align-center">
+      <div class="header__logo h3"><a href="index.html">DAMIETTA</a></div>
+      <div class="header__actions">
+        <a href="gallery.html" class="btn btn--ghost">Shop</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container margin-top-12 margin-bottom-16">
+    <div class="split-layout gap-12 align-start">
+
+      <!-- Contact Info -->
+      <div>
+        <h1 class="text-display margin-bottom-6">Get in Touch</h1>
+        <p class="text-lg text-secondary margin-bottom-8">Whether you have a question about a piece, need delivery updates, or want to discuss a custom order.</p>
+
+        <div class="margin-bottom-8">
+          <h3 class="text-xl margin-bottom-2">WhatsApp (Fastest)</h3>
+          <p class="text-secondary margin-bottom-2">We typically reply within minutes.</p>
+          <a href="https://wa.me/123456789" target="_blank" class="btn btn--primary">Chat on WhatsApp</a>
+        </div>
+
+        <div class="margin-bottom-8">
+          <h3 class="text-xl margin-bottom-2">Email</h3>
+          <p class="text-secondary"><a href="mailto:hello@damiettafurniture.com">hello@damiettafurniture.com</a></p>
+        </div>
+
+        <div class="margin-bottom-8">
+          <h3 class="text-xl margin-bottom-2">Phone</h3>
+          <p class="text-secondary"><a href="tel:+201000000000">+20 100 000 0000</a></p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="custom-form bg-surface padding-8 border-radius-md box-shadow-sm">
+        <h2 class="text-2xl margin-bottom-6">Send a Message</h2>
+
+        <div class="form-group">
+          <label for="name" class="form-label">Name *</label>
+          <input type="text" id="name" class="form-input" required aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-label">Email *</label>
+          <input type="email" id="email" class="form-input" required aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="subject" class="form-label">Subject</label>
+          <select id="subject" class="form-input">
+            <option>General Inquiry</option>
+            <option>Order Status</option>
+            <option>Trade / Wholesale</option>
+            <option>Press / Media</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="form-label">Message *</label>
+          <textarea id="message" class="form-textarea" rows="5" required aria-required="true"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary w-full">Send Message</button>
+      </form>
+
+    </div>
+  </main>
+
+  <script src="../js/scripts.js" defer></script>
+</body>
+</html>

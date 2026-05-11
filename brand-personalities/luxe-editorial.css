@@ -1,0 +1,32 @@
+/* brand-personalities/luxe-editorial.css */
+:root {
+  --color-background: #0C0A08;
+  --color-surface: #161210;
+  --color-text-primary: #F5F0E8;
+  --color-text-secondary: #A89880;
+  --color-accent: #C9903A;
+  --color-accent-hover: #E0A84A;
+  --color-border: #2A2420;
+
+  --font-display: "Cormorant Garamond", "Bodoni Moda", serif;
+  --font-body: "Jost", "Lato Light", sans-serif;
+  --font-arabic: "Scheherazade New", serif;
+
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-pill: 0;
+
+  --dur-normal: 500ms; /* Ultra-slow reveals */
+  --ease-pour: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section {
+  padding-block: calc(var(--space-16) * 1.5);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-block: calc(var(--space-24) * 1.5);
+  }
+}

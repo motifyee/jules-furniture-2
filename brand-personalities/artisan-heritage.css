@@ -1,0 +1,33 @@
+/* brand-personalities/artisan-heritage.css */
+:root {
+  --color-background: #F5EDE0;
+  --color-surface: #FDFAF5;
+  --color-text-primary: #2A1F14;
+  --color-text-secondary: #6B5340;
+  --color-accent: #8B5E3C;
+  --color-accent-hover: #6E4A2E;
+  --color-border: #E0D0C0;
+  --color-wood-warm: #C4884A;
+
+  --font-display: "Playfair Display", "Cormorant Garamond", serif;
+  --font-body: "Source Serif 4", "Lato", serif;
+  --font-arabic: "Amiri", serif;
+
+  --radius-sm: 0px;
+  --radius-md: 2px;
+  --radius-lg: 4px;
+  --radius-pill: 2px; /* Precision craft, minimal curves */
+
+  --dur-normal: 350ms; /* Slower, deliberate motion */
+  --ease-pour: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.section {
+  padding-block: calc(var(--space-16) * 1.2);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-block: calc(var(--space-24) * 1.2);
+  }
+}

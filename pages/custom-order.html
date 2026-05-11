@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Custom Order | Damietta Furniture</title>
+  <link rel="stylesheet" href="../tokens.css">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="../layout.css">
+  <link rel="stylesheet" href="../components.css">
+  <link rel="stylesheet" href="../rtl.css">
+  <link rel="stylesheet" href="../brand-personalities/artisan-heritage.css">
+</head>
+<body>
+
+  <header class="header bg-surface padding-block-4">
+    <div class="container flex-row justify-between align-center">
+      <div class="header__logo h3"><a href="index.html">DAMIETTA</a></div>
+      <div class="header__actions">
+        <a href="gallery.html" class="btn btn--ghost">Shop</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container margin-top-12 margin-bottom-16 container--narrow">
+    <h1 class="text-display text-center margin-bottom-4">Bespoke Orders</h1>
+    <p class="text-xl text-center text-secondary margin-bottom-12">Direct from the maker. No middleman premium. Built exactly for your space.</p>
+
+    <!-- Why Custom -->
+    <div class="grid grid--3-col gap-6 margin-bottom-16 text-center">
+      <div>
+        <h3 class="text-lg margin-bottom-2">Exact Dimensions</h3>
+        <p class="text-sm text-secondary">We build to the centimeter to fit your exact floorplan.</p>
+      </div>
+      <div>
+        <h3 class="text-lg margin-bottom-2">Your Choice of Material</h3>
+        <p class="text-sm text-secondary">Select from premium hardwoods and imported fabrics.</p>
+      </div>
+      <div>
+        <h3 class="text-lg margin-bottom-2">Direct from Workshop</h3>
+        <p class="text-sm text-secondary">Made in Damietta, skipping retail markups.</p>
+      </div>
+    </div>
+
+    <!-- The Form -->
+    <form class="custom-form bg-surface padding-8 border-radius-md box-shadow-md">
+      <h2 class="text-2xl margin-bottom-6">Start Your Quote</h2>
+
+      <div class="form-group">
+        <label for="product-type" class="form-label">What are you looking to build?</label>
+        <select id="product-type" class="form-input">
+          <option>Dining Table</option>
+          <option>Sofa / Sectional</option>
+          <option>Bed Frame</option>
+          <option>Storage / Wardrobe</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="dimensions" class="form-label">Approximate Dimensions (Width x Depth x Height)</label>
+        <input type="text" id="dimensions" class="form-input" placeholder="e.g. 220cm x 100cm x 76cm">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Material Preference</label>
+        <div class="swatch-grid role='radiogroup'">
+          <div class="swatch" role="radio" aria-checked="false" aria-label="Walnut" title="Walnut"><div class="swatch-fill bg-walnut"></div></div>
+          <div class="swatch" role="radio" aria-checked="false" aria-label="Oak" title="Oak"><div class="swatch-fill bg-oak"></div></div>
+          <div class="swatch" role="radio" aria-checked="false" aria-label="Linen" title="Linen"><div class="swatch-fill bg-linen"></div></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="details" class="form-label">Special Requirements / Inspiration</label>
+        <textarea id="details" class="form-textarea" rows="4" placeholder="Tell us about the space and the feel you are going for..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="upload" class="form-label">Reference Images</label>
+        <input type="file" id="upload" class="form-input" aria-label="Upload reference photos">
+      </div>
+
+      <div class="form-group margin-top-8">
+        <label for="contact" class="form-label">WhatsApp Number *</label>
+        <input type="tel" id="contact" class="form-input" required aria-required="true" placeholder="+20 100 000 0000">
+      </div>
+
+      <button type="submit" class="btn btn--primary w-full">Submit Request — We reply within 24h</button>
+    </form>
+  </main>
+
+  <script src="../js/scripts.js" defer></script>
+</body>
+</html>

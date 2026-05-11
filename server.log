@@ -1,0 +1,82 @@
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /pages/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /tokens.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /layout.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /brand-personalities/artisan-heritage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /rtl.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /components.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /base.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:06] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /pages/assets/hero-room.webp HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:06] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:06] "GET /assets/hero-room.webp HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:08] "GET /pages/product.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:08] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:08] "GET /pages/assets/product-1-lifestyle.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:08] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:08] "GET /pages/assets/product-1-detail.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:08] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:08] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:08] "GET /pages/assets/product-1-texture.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:08] "GET /pages/assets/product-1-scale.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:08] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:08] "GET /pages/assets/product-1-studio.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /pages/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /base.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /components.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /rtl.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /brand-personalities/artisan-heritage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /layout.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:52] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /pages/assets/hero-room.webp HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /tokens.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:52] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:52] "GET /assets/hero-room.webp HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:53] "GET /pages/product.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:07:53] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:53] "GET /pages/assets/product-1-lifestyle.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:53] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:53] "GET /pages/assets/product-1-studio.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:53] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:53] "GET /pages/assets/product-1-texture.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:53] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:53] "GET /pages/assets/product-1-detail.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:07:53] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:07:53] "GET /pages/assets/product-1-scale.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /base.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /components.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /tokens.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /brand-personalities/artisan-heritage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /rtl.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /layout.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/inspire-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/inspire-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/hero-room.webp HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/inspire-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/inspire-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/collection-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/mat-oak.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/mat-walnut.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/mat-linen.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:31] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:31] "GET /pages/assets/mat-leather.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:34] "GET /pages/product.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 07:21:34] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:34] "GET /pages/assets/product-1-lifestyle.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:34] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:34] "GET /pages/assets/product-1-detail.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:34] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:34] "GET /pages/assets/product-1-scale.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:34] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:34] code 404, message File not found
+127.0.0.1 - - [11/May/2026 07:21:34] "GET /pages/assets/product-1-texture.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 07:21:34] "GET /pages/assets/product-1-studio.jpg HTTP/1.1" 404 -

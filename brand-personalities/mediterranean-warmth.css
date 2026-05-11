@@ -1,0 +1,37 @@
+/* brand-personalities/mediterranean-warmth.css */
+:root {
+  --color-background: #FBF4EA;
+  --color-surface: #FDFAF4;
+  --color-text-primary: #3A2E22;
+  --color-text-secondary: #7A6650;
+  --color-accent: #C4602A;
+  --color-accent-hover: #A34D1E;
+  --color-border: #E8D8C0;
+
+  --font-display: "Zilla Slab", "Crete Round", serif;
+  --font-body: "Source Serif 4", "Merriweather", serif;
+  --font-arabic: "Cairo", sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 9999px;
+  --radius-organic: 60% 40% 55% 45% / 45% 55% 40% 60%;
+
+  --dur-normal: 200ms;
+  --ease-pour: cubic-bezier(0.34, 1.4, 0.64, 1); /* organic bounce */
+}
+
+.product-card {
+  border-radius: var(--radius-organic);
+}
+
+.section {
+  padding-block: var(--space-16);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-block: var(--space-24);
+  }
+}

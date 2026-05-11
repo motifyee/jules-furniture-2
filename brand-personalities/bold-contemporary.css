@@ -1,0 +1,33 @@
+/* brand-personalities/bold-contemporary.css */
+:root {
+  --color-background: #FFFFFF;
+  --color-surface: #F5F5F5;
+  --color-text-primary: #0F0F0F;
+  --color-text-secondary: #6B6B6B;
+  --color-accent: #1A1A1A;
+  --color-accent-hover: #000000;
+  --color-border: #E0E0E0;
+
+  --font-display: "Barlow Condensed", "Space Grotesk", sans-serif;
+  --font-body: "IBM Plex Sans", "Inter", sans-serif;
+  --font-arabic: "Tajawal", sans-serif;
+
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-pill: 0;
+
+  --dur-normal: 100ms;
+  --ease-pour: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.section {
+  /* Variable spacing: often tighter in grid, but keep base similar */
+  padding-block: var(--space-16);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-block: var(--space-24);
+  }
+}

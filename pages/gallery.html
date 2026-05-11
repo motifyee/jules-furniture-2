@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shop All | Damietta Furniture</title>
+<link href="../tokens.css" rel="stylesheet"/>
+<link href="../base.css" rel="stylesheet"/>
+<link href="../layout.css" rel="stylesheet"/>
+<link href="../components.css" rel="stylesheet"/>
+<link href="../rtl.css" rel="stylesheet"/>
+<link href="../brand-personalities/artisan-heritage.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header bg-surface padding-block-4">
+<div class="container flex-row justify-between align-center">
+<div class="header__logo h3"><a href="index.html">DAMIETTA</a></div>
+<div class="header__actions flex-row gap-4">
+<a class="btn btn--ghost" href="gallery.html">Shop</a>
+<button aria-label="Cart" class="btn btn--ghost">Cart (0)</button>
+</div>
+</div>
+</header>
+<main class="container margin-top-8 margin-bottom-16">
+<div class="flex-row justify-between align-center margin-bottom-8">
+<h1 class="text-4xl">All Furniture</h1>
+<p class="text-sm">Showing 24 of 87 pieces</p>
+</div>
+<div class="flex-row justify-between align-center margin-bottom-4">
+<button class="btn btn--secondary d-md-none" data-action="open-filters">Filters (2)</button>
+<div class="d-none d-md-block"></div>
+<select aria-label="Sort by" class="btn btn--ghost border-radius-sm">
+<option>Sort: Featured</option>
+<option>Price: Low to High</option>
+<option>Price: High to Low</option>
+</select>
+</div>
+<div class="filter-chips">
+<div class="filter-chip">Solid Wood <span class="filter-chip__remove">×</span></div>
+<div class="filter-chip">Dining <span class="filter-chip__remove">×</span></div>
+<button class="btn btn--ghost text-xs underline">Clear All</button>
+</div>
+<div class="split-layout gap-8 grid-cols-240-1fr">
+<!-- Filter Sidebar -->
+<aside aria-label="Filters" class="filter-panel" role="search">
+<div class="margin-bottom-4 flex-row justify-between align-center">
+<h2 class="text-lg">Filters</h2>
+<button class="btn btn--ghost text-xs">Clear All</button>
+</div>
+<details class="accordion" open="">
+<summary>Room</summary>
+<div class="accordion__content flex-column gap-2">
+<label class="flex-row gap-2"><input type="checkbox"/> Living Room</label>
+<label class="flex-row gap-2"><input type="checkbox"/> Bedroom</label>
+<label class="flex-row gap-2"><input type="checkbox"/> Dining</label>
+</div>
+</details>
+<details class="accordion" open="">
+<summary>Material</summary>
+<div class="accordion__content flex-column gap-2">
+<label class="flex-row gap-2"><input type="checkbox"/> Solid Wood</label>
+<label class="flex-row gap-2"><input type="checkbox"/> Upholstered</label>
+</div>
+</details>
+<details class="accordion">
+<summary>Wood Type</summary>
+<div class="accordion__content flex-column gap-2">
+<label class="flex-row gap-2"><input type="checkbox"/> Oak</label>
+<label class="flex-row gap-2"><input type="checkbox"/> Walnut</label>
+<label class="flex-row gap-2"><input type="checkbox"/> Pine</label>
+</div>
+</details>
+</aside>
+<!-- Product Grid -->
+<div class="grid grid--3-col">
+<!-- Product Card 1 -->
+<article class="product-card">
+<a class="product-card__image-wrap" href="product.html">
+<picture>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-1-lifestyle.avif 800w, assets/product-1-lifestyle@2x.avif 1600w" type="image/avif"/>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-1-lifestyle.webp 800w, assets/product-1-lifestyle@2x.webp 1600w" type="image/webp"/>
+<img alt="Solid Walnut Dining Table in styled dining room" class="product-card__image" height="500" loading="lazy" src="assets/product-1-lifestyle.jpg" width="400"/>
+</picture>
+<picture>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-1-studio.avif 800w, assets/product-1-studio@2x.avif 1600w" type="image/avif"/>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-1-studio.webp 800w, assets/product-1-studio@2x.webp 1600w" type="image/webp"/>
+<img alt="Solid Walnut Dining Table studio shot" class="product-card__image-alt" height="500" loading="lazy" src="assets/product-1-studio.jpg" width="400"/>
+</picture>
+<button aria-label="Add Malak Dining Table to wishlist" aria-pressed="false" class="product-card__wishlist">♡</button>
+<div class="badge badge--material badge-position" style="--badge-color: var(--material-walnut);">Solid Walnut</div>
+</a>
+<div class="product-card__info">
+<h3 class="product-card__title"><a href="product.html">Malak Dining Table</a></h3>
+<p class="product-card__desc">Hand-applied matte oil</p>
+<p class="product-card__price">EGP 18,500</p>
+</div>
+</article>
+<!-- Product Card 2 -->
+<article class="product-card">
+<a class="product-card__image-wrap" href="product.html">
+<picture>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-2-lifestyle.avif 800w, assets/product-2-lifestyle@2x.avif 1600w" type="image/avif"/>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-2-lifestyle.webp 800w, assets/product-2-lifestyle@2x.webp 1600w" type="image/webp"/>
+<img alt="Linen Lounge Chair in living room" class="product-card__image" height="500" loading="lazy" src="assets/product-2-lifestyle.jpg" width="400"/>
+</picture>
+<picture>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-2-studio.avif 800w, assets/product-2-studio@2x.avif 1600w" type="image/avif"/>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-2-studio.webp 800w, assets/product-2-studio@2x.webp 1600w" type="image/webp"/>
+<img alt="Linen Lounge Chair studio shot" class="product-card__image-alt" height="500" loading="lazy" src="assets/product-2-studio.jpg" width="400"/>
+</picture>
+<button aria-label="Add Cairo Lounge Chair to wishlist" aria-pressed="false" class="product-card__wishlist">♡</button>
+<div class="badge badge--material badge-position" style="--badge-color: var(--fabric-linen);">Linen</div>
+</a>
+<div class="product-card__info">
+<h3 class="product-card__title"><a href="product.html">Cairo Lounge Chair</a></h3>
+<p class="product-card__desc">Solid oak frame, Belgian linen</p>
+<p class="product-card__price">EGP 12,000</p>
+</div>
+</article>
+<!-- Product Card 3 -->
+<article class="product-card">
+<a class="product-card__image-wrap" href="product.html">
+<picture>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-3-lifestyle.avif 800w, assets/product-3-lifestyle@2x.avif 1600w" type="image/avif"/>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-3-lifestyle.webp 800w, assets/product-3-lifestyle@2x.webp 1600w" type="image/webp"/>
+<img alt="Oak Bed Frame in styled bedroom" class="product-card__image" height="500" loading="lazy" src="assets/product-3-lifestyle.jpg" width="400"/>
+</picture>
+<picture>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-3-studio.avif 800w, assets/product-3-studio@2x.avif 1600w" type="image/avif"/>
+<source sizes="(max-width: 768px) 100vw, (max-width: 1200px) 55vw, 800px" srcset="assets/product-3-studio.webp 800w, assets/product-3-studio@2x.webp 1600w" type="image/webp"/>
+<img alt="Oak Bed Frame studio shot" class="product-card__image-alt" height="500" loading="lazy" src="assets/product-3-studio.jpg" width="400"/>
+</picture>
+<button aria-label="Add Alexandria Bed to wishlist" aria-pressed="false" class="product-card__wishlist">♡</button>
+<div class="badge badge--material badge-position" style="--badge-color: var(--material-oak);">Solid Oak</div>
+</a>
+<div class="product-card__info">
+<h3 class="product-card__title"><a href="product.html">Alexandria Bed</a></h3>
+<p class="product-card__desc">Mortise and tenon joinery</p>
+<p class="product-card__price">EGP 24,000</p>
+</div>
+</article>
+</div>
+</div>
+<div class="flex-row justify-center margin-top-16">
+<button class="btn btn--secondary">Load More</button>
+</div>
+</main>
+<!-- Mobile Bottom Tab Bar -->
+<nav class="bottom-tab-bar d-md-none">
+<a class="tab-bar__item" href="index.html">
+<span class="tab-bar__icon">⌂</span>
+<span>Home</span>
+</a>
+<a class="tab-bar__item is-active" href="gallery.html">
+<span class="tab-bar__icon">▦</span>
+<span>Shop</span>
+</a>
+<a class="tab-bar__item" href="#">
+<span class="tab-bar__icon">♡</span>
+<span>Wishlist</span>
+</a>
+<a class="tab-bar__item" href="#">
+<span class="tab-bar__icon">🛒</span>
+<span>Cart</span>
+</a>
+<a class="tab-bar__item" href="#">
+<span class="tab-bar__icon">☰</span>
+<span>Menu</span>
+</a>
+</nav>
+<div class="filter-overlay"></div>
+<script defer="" src="../js/scripts.js"></script>
+</body>
+</html>

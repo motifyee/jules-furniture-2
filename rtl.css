@@ -1,0 +1,56 @@
+/* rtl.css */
+/* Arabic Font Faces - Assuming WOFF2 would be loaded */
+@font-face {
+  font-family: 'Amiri';
+  src: local('Amiri');
+}
+@font-face {
+  font-family: 'Cairo';
+  src: local('Cairo');
+}
+@font-face {
+  font-family: 'Scheherazade New';
+  src: local('Scheherazade New');
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: local('Noto Kufi Arabic');
+}
+@font-face {
+  font-family: 'Tajawal';
+  src: local('Tajawal');
+}
+
+/* RTL overrides when [dir="rtl"] is active */
+[dir="rtl"] {
+  --font-display: var(--font-arabic);
+  --font-body: var(--font-arabic);
+  --font-label: var(--font-arabic);
+
+  /* Increase Arabic text size slightly due to density */
+  font-size: 105%;
+  line-height: 1.8;
+}
+
+[dir="rtl"] body {
+  text-align: start; /* Inherits RTL properly */
+}
+
+/* Specific component overrides that don't rely fully on logical properties */
+[dir="rtl"] .product-card__wishlist {
+  right: auto;
+  left: var(--space-3);
+}
+
+[dir="rtl"] details.accordion summary::after {
+  /* No change needed usually, but can adjust positioning if flex-order is complex */
+}
+
+[dir="rtl"] .swatch[aria-checked="true"]::after {
+  right: auto;
+  left: -4px;
+}
+
+/* Ensure any absolute positioning or explicit margins not using logical properties are flipped */
+[dir="rtl"] .margin-left-auto { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .margin-right-auto { margin-right: 0; margin-left: auto; }
