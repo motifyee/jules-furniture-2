@@ -23,7 +23,7 @@
 .btn--primary:hover {
   background-color: var(--color-accent-hover);
   transform: translateY(-2px);
-  shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-sm);
 }
 
 .btn--secondary {
@@ -266,7 +266,7 @@ details.accordion > .accordion__content {
   background: var(--color-surface);
   padding: var(--space-6);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
+  box-box-shadow: var(--shadow-sm);
 }
 .testimonial-card__quote {
   font-family: var(--font-display);
